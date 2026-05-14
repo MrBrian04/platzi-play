@@ -1,0 +1,12 @@
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: platzi-play
+  datasource:
+    driver-class-name: org.postgresql.Driver
+
+server:
+    servlet:
+        context-path: /api/v1
